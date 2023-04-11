@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>BLOCK EDITER</title>
+
+  <!-- HTML -->
+
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="b">
+    <div id="editer" class="draw">
+      <canvas id="ca"></canvas>
+    </div>
+    <div class="tool">
+      <input type="button" class="box" style="background-color: #ffffff;" onclick="color = 0;" value="🗑️">
+      <input type="button" class="box" style="background-color: #ffffff;" onclick="color = '#ffffff';">
+      <input type="button" class="box" style="background-color: #ff9500;" onclick="color = '#ff9500';">
+      <input type="button" class="box" style="background-color: #f62e32;" onclick="color = '#f62e32';">
+      <input type="button" class="box" style="background-color: #b5b5ac;" onclick="color = '#b5b5ac';">
+      <input type="button" class="box" style="background-color: #009bbf;" onclick="color = '#009bbf';">
+      <input type="button" class="box" style="background-color: #00bb85;" onclick="color = '#00bb85';">
+      <input type="button" class="box" style="background-color: #c1a470;" onclick="color = '#c1a470';">
+      <input type="button" class="box" style="background-color: #8f76d6;" onclick="color = '#8f76d6';">
+      <input type="button" class="box" style="background-color: #00ac9b;" onclick="color = '#00ac9b';">
+      <input type="button" class="box" style="background-color: #9c5e31;" onclick="color = '#9c5e31';">
+      <input type="button" class="box" style="background-color: #f39700;" onclick="color = '#f39700';">
+      <input type="button" class="box" style="background-color: #e60012;" onclick="color = '#e60012';">
+      <input type="button" class="box" style="background-color: #9caeb7;" onclick="color = '#9caeb7';">
+      <input type="button" class="box" style="background-color: #00a7db;" onclick="color = '#00a7db';">
+      <input type="button" class="box" style="background-color: #009944;" onclick="color = '#009944';">
+      <input type="button" class="box" style="background-color: #d7c447;" onclick="color = '#d7c447';">
+      <input type="button" class="box" style="background-color: #9b7cb6;" onclick="color = '#9b7cb6';">
+      <input type="button" class="box" style="background-color: #00ada9;" onclick="color = '#00ada9';">
+      <input type="button" class="box" style="background-color: #bb641d;" onclick="color = '#bb641d';">
+      <input type="button" class="box" style="background-color: #e85298;" onclick="color = '#e85298';">
+      <input type="button" class="box" style="background-color: #0079c2;" onclick="color = '#0079c2';">
+      <input type="button" class="box" style="background-color: #6cbb5a;" onclick="color = '#6cbb5a';">
+      <input type="button" class="box" style="background-color: #b6007a;" onclick="color = '#b6007a';">
+      <input type="button" class="box" style="background-color: #e5171f;" onclick="color = '#e5171f';">
+      <input type="button" class="box" style="background-color: #522886;" onclick="color = '#522886';">
+      <input type="button" class="box" style="background-color: #0078ba;" onclick="color = '#0078ba';">
+      <input type="button" class="box" style="background-color: #019a66;" onclick="color = '#019a66';">
+      <input type="button" class="box" style="background-color: #e44d96;" onclick="color = '#e44d96';">
+      <input type="button" class="box" style="background-color: #814721;" onclick="color = '#814721';">
+      <input type="button" class="box" style="background-color: #a9cc51;" onclick="color = '#a9cc51';">
+      <input type="button" class="box" style="background-color: #ee7b1a;" onclick="color = '#ee7b1a';">
+      <input type="button" class="box" style="background-color: #00a0de;" onclick="color = '#00a0de';">
+      <input type="button" class="box" style="background-color: #000000;" onclick="color = '#000000';"><br>
+      <input type="text" id="colorCode" placeholder="カラーコード">
+      <input type="button" value="この色に指定" id="ok"><br>
+      <a id="download" download="s.json">download</a>
+    </div>
+  </div>
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+body {
+  font-size: 15pt;
+}
+
+@media screen and (orientation: portrait) {
+  .box {
+    width: 30px;
+    height: 30px;
+  }
+
+  .draw {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    margin: 5px;
+  }
+
+  .tool {
+    position: fixed;
+    bottom: 0px;
+  }
+
+  .b {
+    position: fixed;
+  }
+}
+/*横用*/
+@media screen and (orientation: landscape) {
+  .box {
+    width: 30px;
+    height: 30px;
+  }
+
+  .draw {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    margin: 5px;
+  }
+
+  .tool {
+    position: fixed;
+    width: 50%;
+    right: 0px;
+  }
+
+  .b {
+    position: fixed;
+  }
+}
